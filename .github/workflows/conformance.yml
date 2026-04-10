@@ -169,6 +169,8 @@ jobs:
           micromamba-version: 'latest'
           environment-name: kernel
           init-shell: bash
+          cache-environment: false
+          cache-downloads: false
           create-args: >-
             python=3.12
             jupyter_client
